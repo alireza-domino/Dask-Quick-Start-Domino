@@ -15,7 +15,7 @@
 ## Step 1: Create the project and download the files 
 
 - Open a new tab in the browser and navigate to the link below for each Jupyter notebook and download them:
-    1. [calculatePi.ipynb]()
+    1. [calculatePi.ipynb](https://github.com/alireza-domino/Dask-Quick-Start-Domino/blob/main/calculatePi.ipynb)
     2. [Dask-DataFrame.ipynb]()
     3. [Dask-Quick-Start-Tutorial.ipynb]()
 - Create Project Dask-QuickStart, hosted by Domino File System
