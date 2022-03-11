@@ -105,16 +105,6 @@ USER ubuntu
 ### Plugable Workspace Tools are as follows:
 
 ```
-jupyter:
-  title: "Jupyter (Python, R, Julia)"
-  iconUrl: "/assets/images/workspace-logos/Jupyter.svg"
-  start: [ "/var/opt/workspaces/jupyter/start" ]
-  httpProxy:
-    port: 8888
-    rewrite: false
-    internalPath: "/{{ownerUsername}}/{{projectName}}/{{sessionPathComponent}}/{{runId}}/{{#if pathToOpen}}tree/{{pathToOpen}}{{/if}}"
-    requireSubdomain: false
-  supportedFileExtensions: [ ".ipynb" ]
 jupyterlab:
   title: "JupyterLab"
   iconUrl: "/assets/images/workspace-logos/jupyterlab.svg"
@@ -128,13 +118,6 @@ vscode:
   title: "vscode"
   iconUrl: "/assets/images/workspace-logos/vscode.svg"
   start: [ "/var/opt/workspaces/vscode/start" ]
-  httpProxy:
-    port: 8888
-    requireSubdomain: false
-rstudio:
-  title: "RStudio"
-  iconUrl: "/assets/images/workspace-logos/Rstudio.svg"
-  start: [ "/var/opt/workspaces/rstudio/start" ]
   httpProxy:
     port: 8888
     requireSubdomain: false
