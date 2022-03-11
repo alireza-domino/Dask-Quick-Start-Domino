@@ -156,4 +156,4 @@ RUN pip install dask-ml[complete]==$DASK_ML_VERSION
 
 __
 
-For more information about on-demand Dask please check out [Domino documentation](https://docs.dominodatalab.com/en/5.0.1/reference/dask/On_demand_dask_overview.html), please ensure that correct Domino version is selected.
+For more information about on-demand Dask please check out [Domino documentation](https://docs.dominodatalab.com/en/5.0.1/reference/dask/On_demand_dask_overview.html). On the Doc's webpage please ensure that correct Domino version is selected.
