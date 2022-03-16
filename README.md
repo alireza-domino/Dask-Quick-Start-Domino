@@ -66,7 +66,7 @@ If you are reading this README in a Domino project that has been shared with you
 
 ## Appendix A: creating a Dask workspace environment
 
-For a general introduction to Compute Environments in Domino, see the [Domino documentation](https://docs.dominodatalab.com/en/5.0/reference/environments/index.html) (be sure to select your current Domino version). To create a Dask workspace environment for use with this example simply follow these steps:
+For a general introduction to Compute Environments in Domino, see the [Domino documentation](https://docs.dominodatalab.com/en/5.0/reference/environments/index.html) (be sure to select your current Domino version). To create a Dask workspace environment for use with this project simply follow these steps, adapted for our specific example from the [Domino Dask documentation](https://docs.dominodatalab.com/en/latest/reference/dask/Configuring_prerequisites.html):
 
 1. Create a new Environment and name it "Dask Workspace Environment" (or a name of your choice)
 2. For the base image select "custom image" and enter `quay.io/domino/standard-environment:ubuntu18-py3.8-r4.1-domino5.0`
